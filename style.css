@@ -1,0 +1,59 @@
+.imagenprin{
+    height: 400px;
+    width: 1340px;;
+}
+.imagenyo{
+    border: groove 10px purple;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: oldlace;
+}
+.titulo{
+    font-size: 65px;
+}
+.subtitulo1{
+    font-size: 50px;
+}
+h2{
+    font-size:40px;
+    font-style: inherit;
+}
+li{
+    font-size: 25px;
+    font-style: italic;
+}
+.imagenseparadora{
+    width: 1500px;
+    height: 10px;
+}
+th{
+    background-color: gray;
+    border: red;
+}
+td{
+    text-align: center;
+}
+table{
+    background-color: blanchedalmond;
+}
+
+section{
+    display: flex;
+    width: 600px;
+    height: 430px;
+}
+section img{
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .8;
+}
+section img:hover{
+    cursor: crosshair;
+    width: 300px;
+    opacity: 1;
+    filter: contrast(120%);
+}
